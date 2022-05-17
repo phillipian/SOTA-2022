@@ -3,4 +3,4 @@ SOTA correlations and code used to graph/find numbers for each correlation. Corr
 
 
 
-Contact me @ dakotacsk@protonmail.com or schang23@andover.edu if you have any questions regarding the code/logic.
+Contact @ schang23@andover.edu, cwang23@andover.edu, or djeong23@andover.edu if you have any questions regarding the code/logic.
