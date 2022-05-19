@@ -1,0 +1,366 @@
+html {
+    /* zoom: 90%; */
+  }
+  
+  body{
+      overflow-x: hidden;
+  }
+  
+  .sota-navbar{
+      color: #fff;
+  }
+  
+  .navbar-logo{
+      height: 100%;
+      display: flex;
+      align-items: center;
+  }
+  
+  .navbar-logo a{
+      height: 50%!important;
+  }
+  
+  .navbar-logo img{
+      height: 100%;
+  }
+  
+  .sota-navbar div.navbar-sota{ /* higher specificty */
+      font-family: "Montserrat";
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+  }
+  
+  .sota-navbar .sz-navbar-inner{
+      padding: 0 24px;
+  }
+  
+  .sota-navbar .sz-navbar-item{
+      height: 64px;
+      flex-grow: 0;
+      margin-right: 0;
+      font-family: "Mercury Text G1";
+  }
+  
+  .sz-navbar-item{ /* lower specificity */
+      background-color: #000;
+  }
+  
+  @media (min-width: 1400px){
+      .sota-navbar .sz-navbar-items{
+          margin-left: auto;
+      }
+  
+      .sz-navbar-item.navbar-sota{
+          display: none;
+      }
+  
+      .navbar-logo{
+          margin-right: 32px;
+      }
+  }
+  
+  @media (max-width: 1400px){
+      .sota-navbar .sz-navbar-items{
+          background-color: #000;
+          z-index: 4;
+          height: 100vh;
+          box-sizing: border-box;
+          justify-content: flex-start;
+      }
+  
+      .sota-navbar div.sz-navbar-item{
+          width: 100%;
+          margin-bottom: 0;
+      }
+  
+      .sz-navbar-inner > .navbar-sota{
+          display: none;
+      }
+  
+      .sech-general{
+          background-color: #235085;
+      }
+  
+      .sech-politics{
+          background-color: #2C3278;
+      }
+  
+      .sech-campus{
+          background-color: #762670;
+      }
+  
+      .sech-school{
+          background-color: #812F54;
+      }
+  
+      .sech-discipline{
+          background-color: #B53432;
+      }
+  
+      .sech-sex{
+          background-color: #C7327E;
+      }
+  
+      .sech-drugs{
+          background-color: #E77929;
+      }
+  
+      .sech-wellness{
+          background-color: #6CB645;
+      }
+  
+      .sech-covid{
+          background-color: #008244;
+      }
+  
+      .sech-community{
+          background-color: #089181;
+      }
+  
+      .sech-senior{
+          background-color: #235085;
+      }
+  }
+  
+  .sota-navbar .sz-navbar-item a, .sota-navbar .sz-navbar-item span{
+      line-height: 64px;
+      box-sizing: border-box;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      height: 64px;
+      padding: 0 8px;
+      display: block;
+  }
+  
+  section:first-of-type{
+      padding-top: 64px;
+  }
+  
+  section:before{
+      content: "";
+      z-index: 4;
+      position: sticky;
+      top: 64px;
+      width: 100%;
+      height: 8px;
+      background-color: inherit;
+      display: block;
+  }
+  
+  .container.hide .module{
+      border-bottom: none;
+  }
+  
+  .container.hide .module > *{
+      visibility: hidden;
+  }
+  
+  .container:not(.hide) .loading{
+      display: none;
+  }
+  
+  .home-container{
+      padding: 64px 24px;
+      box-sizing: border-box;
+      max-width: 1500px;
+      display: grid;
+      margin: 0 auto;
+      grid-template-columns: minmax(0, 1fr);
+  }
+  
+  .home-hero{
+      grid-column-gap: 48px;
+  }
+  
+  .home-hero img{
+      width: 100%;
+  }
+  
+  .home-sections, .home-mid{
+      padding: 16px 24px;
+      grid-column-gap: 8px;
+  }
+  
+  .home-mid h3{
+      font-family: "Mercury Text G1";
+      font-size: 24px;
+      margin-bottom: 0;
+  }
+  
+  @media (min-width: 600px){
+      .home-sections{
+          grid-template-columns: repeat(2, minmax(0,1fr));
+      }
+  }
+  
+  @media (min-width: 900px){
+      .home-sections{
+          grid-template-columns: repeat(3, minmax(0,1fr));
+      }
+  }
+  
+  @media (min-width: 1200px){
+      .home-sections{
+          grid-template-columns: repeat(4, minmax(0,1fr));
+      }
+  }
+  
+  @media (min-width: 1500px){
+      .home-sections{
+          grid-template-columns: repeat(5, minmax(0,1fr));
+      }
+  }
+  
+  .home-sections a{
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      font-family: "Montserrat";
+      font-weight: 700;
+      text-transform: uppercase;
+  }
+  
+  .home-section{
+      background-color: #222;
+      padding: 16px 0;
+      margin-bottom: 8px;
+  }
+  
+  .hero-logo{
+      width: 72px;
+      margin-bottom: 48px;
+  }
+  
+  .hero-blurb{
+      display: flex;
+      flex-flow: column nowrap;
+  }
+  
+  .hero-image-inner{
+      position: relative;
+  }
+  
+  .hero-image-credit{
+      position: absolute;
+      font-family: "Montserrat";
+      font-weight: 400;
+      color: #fff;
+      bottom: 24px;
+      right: 24px;
+  }
+  
+  .hero-image-credit a{
+      color: unset;
+  }
+  
+  .hero-blurb p{
+      max-width: 600px;
+      font-size: 20px;
+      margin: 12px 0;
+      line-height: 1.5;
+      font-family: "Mercury Text G1";
+  }
+  
+  .hero-blurb p:first-of-type{
+      margin-top: auto;
+  }
+  
+  .hero-sota{
+      font-family: "Montserrat";
+      font-weight: 700;
+      font-size: 48px;
+      text-transform: uppercase;
+      line-height: 0.9;
+      margin-bottom: 32px;
+  }
+  
+  .hero-sota-year{
+      line-height: 0.9;
+      font-size: 120px;
+      opacity: 0.2;
+  }
+  
+  @media (max-width: 900px){
+      .hero-image{
+          grid-row: 1;
+          margin-top: -72px;
+          width: calc(100% + 48px);
+          margin-left: -24px;
+          margin-bottom: 32px;
+      }
+  }
+  
+  @media (min-width: 900px){
+      .hero-sota{
+          font-size: 64px;
+      }
+  
+      .hero-sota-year{
+          font-size: 144px;
+      }
+  
+      .home-hero{
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+  }
+  
+  
+  .sec-general, .sech-general:hover{
+      background-color: #235085;
+  }
+  
+  .sec-politics, .sech-politics:hover{
+      background-color: #2C3278;
+  }
+  
+  .sec-campus, .sech-campus:hover{
+      background-color: #762670;
+  }
+  
+  .sec-school, .sech-school:hover{
+      background-color: #812F54;
+  }
+  
+  .sec-discipline, .sech-discipline:hover{
+      background-color: #B53432;
+  }
+  
+  .sec-sex, .sech-sex:hover{
+      background-color: #C7327E;
+  }
+  
+  .sec-drugs, .sech-drugs:hover{
+      background-color: #E77929;
+  }
+  
+  .sec-wellness, .sech-wellness:hover{
+      background-color: #6CB645;
+  }
+  
+  .sec-covid, .sech-covid:hover{
+      background-color: #008244;
+  }
+  
+  .sec-community, .sech-community:hover{
+      background-color: #089181;
+  }
+  
+  .sec-senior, .sech-senior:hover{
+      background-color: #235085;
+  }
+  
+  /* blurb styling*/
+  .sota-section > p {
+    color: #fff;
+    font-family: Lora;
+    line-height: 1.5;
+    max-width: 1000px !important;
+    margin: 64px auto;
+    padding: 0 24px;
+    font-size: medium !important;
+    text-align: left !important;
+  }
+  
