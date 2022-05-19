@@ -951,7 +951,17 @@ window.onload = () => {
         subtitle: "Do you think day students are able to integrate enough with boarding students at Andover this year?"
     });
 
-    //sex
+    // ------ SEX -------
+
+    sota.barChart({
+        section:"sex",
+        dataFile: "assets/data/sex/70-sexual_activity",
+        displayPercentage: true,
+        title: "Have you ever engaged in sexual activity? Check all that apply."
+        // 2022!!
+        // SHOULD I KEEPEPEPEPEP
+    });
+
     sota.barChart({
         section:"sex",
         dataFile: "assets/data/sex/use_protection",
@@ -1315,7 +1325,8 @@ window.onload = () => {
 
 
 
-    //wellness
+    // ----- WELLNESS!! <3 ------
+
     sota.columnChart({
         section:"wellness",
         dataFile: "assets/data/wellness/44-sleep",
@@ -1381,22 +1392,12 @@ window.onload = () => {
         // 2022!!
     })
 
-    sota.stackedBarChart({
-        section: "wellness",
-        dataFile: "assets/data/wellness/happyXgpa",
-        showLegend: true,
-        labelStyle: "onBar",
-        groupLabelStyle: "onBar",
-        title: "Happiness by GPA",
-        subtitle: "Have you ever been diagnosed with anxiety?"
-        // 2022!!
-    });
-
     sota.bigNumber({
         section:"wellness",
         title:"neurodivergence",
         number: "129",
         subtitle:"respondents consider themselves neurodivergent"
+        // 2022!
     });
 
     sota.bigNumber({
@@ -1404,6 +1405,7 @@ window.onload = () => {
         title:"Percentage of students who have tested positive for Covid-19",
         number: "32.4%",
         subtitle:"Editor's Note: This number reflects the number of students who have tested for Covid-19 when the survey was completed, or between April 8, 2022 and April 20, 2022"
+        // 2022!! 
     });
 
     sota.pieChart({
@@ -1412,6 +1414,7 @@ window.onload = () => {
         sorted: false,
         title: "body insecurity",
         subtitle: "Do you feel insecure about your body, physical health, and/or appearance?"
+        // 2022!!
     });
 
     sota.stackedBarChart({
@@ -1422,6 +1425,8 @@ window.onload = () => {
         labelStyle: "onBar",
         title: "body insecurity by gender identity",
         subtitle: "Do you feel insecure about your body, physical health, and/or appearance?"
+        // 2022!!
+        
     });
 
     sota.stackedBarChart({
@@ -1432,6 +1437,7 @@ window.onload = () => {
         labelStyle: "onBar",
         title: "body insecurity in athletes",
         subtitle: "Do you feel insecure about your body, physical health, and/or appearance?"
+        // 2022!!
     });
 
     sota.pieChart({
@@ -1440,24 +1446,46 @@ window.onload = () => {
         sorted: false,
         title: "academic insecurity",
         subtitle: "Do you feel insecure about your academic ability and/or intelligence?"
+        // 2022!!
     });
 
     sota.stackedBarChart({
         section: "wellness",
-        dataFile: "assets/data/wellness/happiness",
+        dataFile: "assets/data/wellness/65-happiness",
         showLegend: true,
         labelStyle: "onBar",
         title: "HAPPINESS",
         subtitle: "Generally speaking, do you consider yourself happy at Andover?"
+        // 2022!!
     });
 
     sota.stackedBarChart({
         section: "wellness",
-        dataFile: "assets/data/wellness/others_happiness",
+        dataFile: "assets/data/wellness/happyXgpa",
+        showLegend: true,
+        labelStyle: "onBar",
+        groupLabelStyle: "onBar",
+        title: "Happiness by GPA",
+        subtitle: "Happiness of students and their GPA."
+        // 2022!!
+    });
+
+    sota.bigNumber({
+        section:"wellness",
+        title:"Support Systems",
+        number: "66.9%",
+        subtitle:"of students feel as though they have an adequate mental and/or emotional support system on campus."
+        // 2022!! 
+    });
+
+    sota.stackedBarChart({
+        section: "wellness",
+        dataFile: "assets/data/wellness/66-others_happiness",
         showLegend: true,
         labelStyle: "onBar",
         title:" percieved happiness",
         subtitle: "Generally speaking, do you think that Andover students are happy?"
+        // 2022!!
     });
 
     sota.barChart({
@@ -1466,16 +1494,18 @@ window.onload = () => {
         displayPercentage: true,
         totalResp: 949,
         title: "What social media platforms do you use at Andover?"
+        // 2022!!
     });
 
 
-    sota.stackedBarChart({
+    sota.pieChart({
         section: "wellness",
         dataFile: "assets/data/wellness/47-social_media_impact",
         showLegend: true,
         labelStyle: "onBar",
         title: "social media and mental health",
         subtitle: "How does social media impact your life?"
+        // 2022!!
     });
 
     sota.columnChart({
@@ -1484,13 +1514,8 @@ window.onload = () => {
         sorted: false,
         title: "social media usage",
         subtitle: "Approximately how many hours a day do you spend on social media?",
+        // 2022!!
     });
-
-    sota.bigNumber({
-        section: "wellness",
-        number:"2.91",
-        subtitle: "hours spent on social media per day on average."
-    })
 
     sota.barChart({
         section:"wellness",
@@ -1499,16 +1524,18 @@ window.onload = () => {
         totalResp: 949,
         subtitle: "What are your dietary restrictions?",
         title: "Dietary restrictions"
+        // 2022!!
     });
 
     sota.stackedBarChart({
         section: "wellness",
-        dataFile: "assets/data/wellness/skip_mealXdietary_restriction",
+        dataFile: "assets/data/wellness/happyXperceivedSEC",
         groupLabelStyle: "onBar",
         showLegend: true,
         labelStyle: "onBar",
-        title: "Dietary restrictions & commons food",
-        subtitle: "How often does a dietary restriction prevent you from eating at least one main course meal offered in Commons?"
+        title: "Happiness vs. Perceived Socioeconomic Class",
+        subtitle: "Respondents' happiness and their perceived socioeconomic class."
+        // 2022!!
     });
 
     sota.pieChart({
@@ -1517,22 +1544,25 @@ window.onload = () => {
         sorted: false,
         subtitle: "Do you skip meals in order to get more sleep and/or do school work?",
         title: "skipping meals"
+        // 2022!!
     });
 
     sota.pieChart({
         section:"wellness",
-        dataFile: "assets/data/wellness/see_counselor",
+        dataFile: "assets/data/wellness/58-see_counselor",
         sorted: false,
         subtitle: "Have you ever been to the Sykes Wellness Center to see a counselor?",
         title:"Sykes counseling"
     });
 
-    // sota.pieChart({
-    //     section:"wellness",
-    //     dataFile: "assets/data/wellness/see_counselor",
-    //     sorted: false,
-    //     subtitle: "Do you think that the mental health and counseling resources provided by the Sykes Wellness Center are sufficient?",
-    // });
+
+    sota.bigNumber({
+        section:"wellness",
+        title:"Adequate Recources",
+        number: "30.5%",
+        subtitle:"less respondents believe that the resources provided by the Sykes Wellness Center are sufficient compared to last year (2021)."
+        // 2022!! 
+    });
 
     sota.stackedBarChart({
         section: "wellness",
@@ -1542,70 +1572,55 @@ window.onload = () => {
         labelStyle: "onBar",
         title: 'sykes counseling resources',
         subtitle: "Do you think that the mental health and counseling resources provided by the Sykes Wellness Center are sufficient?"
+        // 2022!!
     });
 
-    // sota.stackedBarChart({
-    //     section: "wellness",
-    //     dataFile: "assets/data/wellness/sykesmentalXdepression",
-    //     groupLabelStyle: "onBar",
-    //     showLegend: true,
-    //     labelStyle: "onBar",
-    //     subtitle: "Do you think that the mental health and counseling resources provided by the Sykes Wellness Center are sufficient? X Have you been diagnosed with depression?"
-    // });
 
     sota.pieChart({
         section:"wellness",
-        dataFile: "assets/data/wellness/sykes_physical",
+        dataFile: "assets/data/wellness/60-sykes_physical",
         sorted: false,
         subtitle: "Do you think that the physical health resources provided by the Sykes Wellness Center are sufficient?",
         title: "physical health resources"
+        // 2022!!
     });
 
     sota.barChart({
         section:"wellness",
-        dataFile: "assets/data/wellness/support_system",
+        dataFile: "assets/data/wellness/67-support_system",
         displayPercentage: true,
         totalResp: 949,
         title: "support systems",
         subtitle: "What is your mental and/or emotional support system on campus?"
+        // 2022!!
     });
 
-    sota.bigNumber({
-        section: 'wellness',
-        number: " 70.8%",
-        subtitle: "of students feel as though they have an adequate mental and/or emotional support system on campus."
-    })
-
-    // sota.pieChart({
-    //     section:"wellness",
-    //     dataFile: "assets/data/wellness/adequate_support",
-    //     sorted: false,
-    //     title: "Do you feel as though you have an adequate mental and/or emotional support system on campus?",
-    //     subtitle:"Editor's note: 27 skipped"
-    // });
-
-    sota.bigNumber({
-        section:"wellness",
-        number:"118",
-        subtitle: "students have been bullied or hazed while at Andover.",
-        title: " Bullying & hazing"
-    })
-    // sota.stackedBarChart({
-    //     section: "wellness",
-    //     dataFile: "assets/data/wellness/bullied",
-    //     showLegend: true,
-    //     labelStyle: "onBar",
-    //     title: "Have you ever been bullied or hazed while at Andover?"
-    // });
     sota.pieChart({
         section:"wellness",
-        dataFile: "assets/data/wellness/take_care",
+        dataFile: "assets/data/wellness/59-adequate_support",
+        title:"Adequate Resources",
+        sorted: false,
+        subtitle: "Do you feel as though you have an adequate mental and/or emotional support system on campus?",
+        // 2022!!
+    });
+
+    sota.pieChart({
+        section:"wellness",
+        dataFile: "assets/data/wellness/69-take_care",
         sorted: false,
         title: "self-care",
         subtitle: "Do you have enough time in your day-to-day life as an Andover student to adequately take care of yourself?",
+        // 2022!!
     });
 
 
+    sota.bigNumber({
+        section:"wellness",
+        title:"Sykes Counseling",
+        number: "36.3%",
+        subtitle:"of students have been to Sykes Wellness Center to see a counselor."
+        // 2022!! 
+    });
 
 
     //senior
