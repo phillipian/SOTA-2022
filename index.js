@@ -1387,7 +1387,7 @@ window.onload = () => {
         showLegend: true,
         labelStyle: "onBar",
         groupLabelStyle: "onBar",
-        title: "Anxiety by Class year",
+        title: "Happiness by GPA",
         subtitle: "Have you ever been diagnosed with anxiety?"
         // 2022!!
     });
