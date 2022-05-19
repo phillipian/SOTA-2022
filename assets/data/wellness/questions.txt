@@ -1,0 +1,156 @@
+44 On average, how many hours of sleep do you get per night?
+10 hours or more
+9 hours
+8 hours
+7 hours
+6 hours
+5 hours
+4 hours
+3 hours
+2 hours or less 
+
+45 Approximately how many hours a day do you spend on social media?
+5 hours or more
+4 hours
+3 hours
+2 hours
+1 hour
+30 minutes or less
+
+46 What social media platforms do you use at Andover? Check all that apply.
+Discord
+Facebook
+Instagram
+Pinterest
+Reddit
+Snapchat
+TikTok
+Twitter
+Tinder
+Tumblr
+VSCO
+WeChat
+Not applicable
+Other (please specify)
+
+47 How does social media impact your life?
+More positively than negatively
+Equally positively and negatively
+More negatively than positively
+Not applicable, I do not use social media
+
+48 Do you consider yourself neurodivergent, “having or related to a type of brain that is often considered as different from what is usual, for example, that of someone who has autism”? (Cambridge English Dictionary)
+Yes
+No
+
+49 Have you ever tested positive for Covid-19?
+Yes
+No
+
+50 What are your dietary restrictions (check all the apply)? 
+Allergies
+Gluten free
+Lactose Intolerant
+Pescetarian
+Religious (i.e. Kosher, Halal, etc.)
+Vegan
+Vegetarian
+None
+Other (please specify)
+
+51 Do you skip meals in order to get more sleep and/or do school work?
+Yes, always 
+Yes, regularly
+Yes, sometimes
+No
+
+52 Have you ever been bullied or hazed while at Andover? 
+Yes, bullied and hazed
+Yes, bullied
+Yes, hazed
+No
+
+53 Do you feel insecure about your academic ability and/or intelligence?
+Yes, always
+Yes, regularly
+Yes, sometimes
+No
+
+54 Do you feel insecure about your body, physical health, and/or appearance?
+Yes, always
+Yes, regularly
+Yes, sometimes
+No
+
+CONTENT WARNING: Questions 55 and 56 contain subject matter regarding eating disorders, self-harm.
+
+55 Have you ever had, or do you currently have, an eating disorder? 
+Yes, both before and while attending Andover
+Yes, only before Andover
+Yes, only while attending Andover
+No
+
+56 Have you ever engaged, or do you currently engage, in self-harm?
+Yes, both before and while attending Andover
+Yes, only before Andover
+Yes, only while attending Andover
+No
+
+57 Have you ever been to Sykes Wellness Center to see a counselor?
+Yes
+No
+
+58 Do you think that the mental health and counseling resources provided by the Sykes Wellness Center are sufficient?
+Yes
+No
+
+59 Do you think that the physical health resources provided by the Sykes Wellness Center are sufficient?
+Yes
+No
+
+60 Have you ever been diagnosed with depression?
+Yes, before coming to Andover
+Yes, after coming to Andover 
+No, but I would like to seek an evaluation
+No 
+
+61 Have you ever been diagnosed with anxiety?
+Yes, before coming to Andover
+Yes, after coming to Andover 
+No, but I would like to seek an evaluation
+No 
+
+62 Have you ever been diagnosed with ADD/ADHD?
+Yes, before coming to Andover
+Yes, after coming to Andover
+No, but I would like to seek an evaluation
+No
+
+63 Are you currently receiving treatment for any mental health diagnosis? (ie. therapy, medication, etc.)
+Yes
+No
+
+64 Generally speaking, do you consider yourself happy at Andover?
+Yes
+No
+
+65 Generally speaking, do you think that Andover students are happy?
+Yes
+No
+
+66 What is your mental and/or emotional support system on campus? Select all that apply. 
+Faculty/staff
+Family
+Friends
+Self
+Other (please specify)
+I do not have a support system on campus
+
+67 Do you feel as though you have an adequate mental and/or emotional support system on campus?
+Yes
+No
+
+68 Do you have enough time in your day-to-day life as an Andover student to adequately take care of yourself?
+Yes
+Somewhat 
+No
