@@ -357,7 +357,7 @@ window.onload = () => {
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     showLegend: false,
-    title: "Percevied SEC & Income",
+    title: "Perceived SEC & Income",
     subtitle: "Perceived socioeconmic class compared to income of respondents.",
     // 2022!!
   }); //better if 2 pie charts
@@ -1220,7 +1220,7 @@ window.onload = () => {
   //   labelStyle: "onBar",
   //   groupLabelStyle: "onBar",
   //   showLegend: true,
-  //   title: "Faculty Diversity By Percieved Socioeconomic Class",
+  //   title: "Faculty Diversity By Perceived Socioeconomic Class",
   //   subtitle:
   //     "Do you think the faculty is lacking in diversity of socioeconomic status?",
   // });
@@ -1983,7 +1983,7 @@ window.onload = () => {
     dataFile: "assets/data/wellness/66-others_happiness",
     showLegend: true,
     labelStyle: "onBar",
-    title: " percieved happiness",
+    title: "perceived happiness",
     subtitle:
       "Generally speaking, do you think that Andover students are happy?",
     // 2022!!
