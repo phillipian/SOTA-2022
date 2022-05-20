@@ -890,8 +890,8 @@ window.onload = () => {
   sota.bigNumber({
     section: "school",
     number: "5.35",
-    title: "Overall Average G.P.A",
-    subtitle: "Winter 2021-2022",
+    title: "Overall Average G.P.A (Winter 2021-2022)",
+    subtitle: "Editor's note: the actual average G.P.A. according to Dean of Students Office was 5.29",
     // 2022!!
   });
 
