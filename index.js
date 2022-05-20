@@ -750,7 +750,7 @@ window.onload = () => {
 
   sota.stackedColumnChart({
     section: "campus",
-    dataFile: "assets/data/campus/antiracistXclass",
+    dataFile: "assets/data/campus/antiracismXclass",
     showLegend: true,
     groupLabelStyle: "onBar",
     labelStyle: "onBar",
@@ -1995,7 +1995,7 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "wellness",
-    dataFile: "assets/data/wellness/happyXperceivedSEC",
+    dataFile: "assets/data/wellness/happyXperceivedsec",
     groupLabelStyle: "onBar",
     showLegend: true,
     labelStyle: "onBar",
