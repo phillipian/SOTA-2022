@@ -389,6 +389,7 @@ window.onload = () => {
     title: "Political Affiliation & Gender Identity",
     subtitle:
       "Editor’s Note: Correlated statistics from respondents who identify as agender, genderfluid, genderqueer, nonbinary, and other gender identities have been removed in an effort to protect the complete anonymity of these respondents",
+      // 2022!!
   });
 
   sota.pieChart({
@@ -409,6 +410,7 @@ window.onload = () => {
     title: "Self-Censorship & Political Affiliation",
     subtitle:
       "Percentage of respondents who answered “Yes” to self-censorship question sorted by political affiliation.",
+      // 2022!!
   });
 
   sota.pieChart({
@@ -456,6 +458,7 @@ window.onload = () => {
     title: "Feminism By Gender Identity",
     subtitle:
       "Editor’s Note: Correlated statistics from respondents who identify as agender, genderfluid, genderqueer, nonbinary, and other gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
+      // 2022!!
   });
 
   // sota.columnChart({
@@ -496,6 +499,7 @@ window.onload = () => {
     dataFile: "assets/data/politics/affirmative_actionXclass",
     title: "Do you support affirmative action in academic institutions?",
     subtitle: "Percentage by Class Year",
+    // 2022!!
   });
 
   sota.stackedColumnChart({
@@ -503,6 +507,19 @@ window.onload = () => {
     dataFile: "assets/data/politics/affirmative_actionXrace",
     title: "Do you support affirmative action in academic institutions?",
     subtitle: "Percentage by Race",
+    // 2022!!
+  });
+
+  sota.stackedBarChart({
+    section: "politics",
+    dataFile: "assets/data/politics/affirmativeXgender",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    showLegend: true,
+    title: "Affirmative Action Support By Gender Identity",
+    subtitle:
+      "Editor’s Note: Correlated statistics from respondents who identify as agender, genderfluid, genderqueer, nonbinary, and other gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
+      // 2022!!
   });
 
   sota.stackedBarChart({
@@ -510,10 +527,12 @@ window.onload = () => {
     dataFile: "assets/data/politics/prison_reformXincarceration",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
+    displayPercentage:true,
     showLegend: true,
     title: "Prison System",
     subtitle:
       "Do you believe that the current prison system in the United States should be altered?",
+      // 2022!!
   });
 
   sota.pieChart({
@@ -536,10 +555,21 @@ window.onload = () => {
 
   sota.stackedColumnChart({
     section: "politics",
-    dataFile: "assets/data/politics/reverse_racismXclass",
+    dataFile: "assets/data/politics/32-reverse_racism",
     title: '"Reverse Racism"',
     subtitle:
       "Do you believe that white people can experience racism (colloquially known as reverse racism)? ",
+      // 2022!!
+  });
+
+  sota.stackedColumnChart({
+    section: "campus",
+    dataFile: "assets/data/politics/reverse_racismXrace",
+    showLegend: true,
+    groupLabelStyle: "onBar",
+    labelStyle: "onBar",
+    title: "Reverse racism by race",
+    subtitle: "Whether or not respondents believe that white people can experience racism (colloquially known as reverse racism) by race.",
   });
 
   sota.stackedBarChart({
@@ -559,6 +589,7 @@ window.onload = () => {
     title:
       "Do you think that people should have the right to have an abortion?",
     subtitle: "By Gender Identity",
+    // 2022!!
   });
 
   sota.pieChart({
@@ -587,27 +618,30 @@ window.onload = () => {
 
   sota.barChart({
     section: "politics",
-    dataFile: "assets/data/politics/capital_punishment",
+    dataFile: "assets/data/politics/40-capital_punishment",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     showLegend: true,
     title: "Capital Punishment",
     subtitle: "Do you support the death penalty?",
+    // 2022!!
   });
 
   sota.barChart({
     section: "politics",
-    dataFile: "assets/data/politics/firearms",
+    dataFile: "assets/data/politics/42-firearms",
     title: "Firearm Ownership",
     subtitle: "Does your family own firearms?",
+    // 2022!!
   });
 
   sota.bigNumber({
     section: "politics",
-    number: "86.9%",
+    number: "84.3%",
     title: "Gun Control",
     subtitle:
       "of respondents believe that gun control laws in the United States should be stricter.",
+      // 2022!!
   });
 
   //Campus Culture
