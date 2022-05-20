@@ -300,6 +300,14 @@ window.onload = () => {
     title: "Financial Aid",
     subtitle: "Are you on any form of financial aid?",
     // 2022!!
+  }); 
+
+  sota.bigNumber({
+    section: "general",
+    number: "40.5%",
+    title: "Financial aid",
+    subtitle: "of respondents are on financial aid provided by Andover.",
+    // 2022!!
   });
 
   sota.barChart({
@@ -1282,11 +1290,22 @@ window.onload = () => {
     section: "diversity",
     dataFile: "assets/data/diversity/145-ebi",
     sorted: false,
-    title: "EBI Curriculumn",
+    title: "EBI Curriculum",
     subtitle:
       "Do you think the EBI curriculum at Andover is effective in helping students become better community members?",
       // 2022!!
   });
+
+  sota.stackedBarChart({
+    section: "diversity",
+    dataFile: "assets/data/diversity/ebiXclass",
+    sorted: false,
+    title: "EBI Curriculum Effectiveness for each class",
+    subtitle:
+      "Do you think the EBI curriculum at Andover is effective in helping students become better community members?",
+      // 2022!!
+  });
+
 
   sota.barChart({
     section: "diversity",
@@ -1301,11 +1320,22 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "diversity",
-    dataFile: "assets/data/diversity/day_student",
+    dataFile: "assets/data/diversity/146-day_student",
     title: "Day Students",
     subtitle:
       "Do you think day students are able to integrate enough with boarding students at Andover this year?",
+      // 2022!!
   });
+
+  sota.stackedBarChart({
+    section: "diversity",
+    dataFile: "assets/data/diversity/day_supportXboarding",
+    title: "Day Student Integration vs. student status",
+    subtitle:
+      "Do you think day students are able to integrate enough with boarding students at Andover this year?",
+      // 2022!!
+  });
+
 
   // ------ SEX -------
 
