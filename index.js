@@ -492,6 +492,7 @@ window.onload = () => {
   sota.columnChart({
     section: "politics",
     dataFile: "assets/data/politics/33-blm",
+    showPercentage: true,
     title: "Black Lives Matter",
     subtitle: "Do you support the Black Lives Matter movement?",
     // 2022!!
@@ -1350,7 +1351,6 @@ window.onload = () => {
     displayPercentage: true,
     title: "Have you ever engaged in sexual activity? Check all that apply.",
     // 2022!!
-    // SHOULD I KEEPEPEPEPEP
   });
 
   sota.barChart({
@@ -1436,7 +1436,7 @@ window.onload = () => {
     dataFile: "assets/data/sex/sex_ed",
     title: "Sexual Education",
     subtitle:
-      "Do you think that your sexual education at Andover has been/is adequate?",
+      "Percentage of students who thought that their sexual education at Andover has been/is adequate.",
     inputIsPercentage: true,
     // 2022!!
   });
