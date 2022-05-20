@@ -1290,12 +1290,13 @@ window.onload = () => {
 
   sota.barChart({
     section: "diversity",
-    dataFile: "assets/data/diversity/leadership",
+    dataFile: "assets/data/diversity/141-leadership",
     totalResp: 862,
     displayPercentage: true,
     title: "Leadership Positions",
     subtitle:
       "Do you think your capability to attain leadership positions at Andover is affected by your __________?",
+      // 2022!!
   });
 
   sota.stackedBarChart({
