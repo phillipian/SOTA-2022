@@ -1,3 +1,5 @@
+// const { tryGetPreviewData } = require("next/dist/server/api-utils");
+
 sota.sotaConfig.sections = [
   {
     slug: "general",
@@ -844,7 +846,8 @@ window.onload = () => {
   sota.lineGraph({
     section: "school",
     dataFile: "assets/data/school/113-hours_on_coursework",
-    maxVal: 180,
+    minVal: 2,
+    maxVal: 250,
     title: "Hours on coursework",
     subtitle: "Q113. How many hours do you spend on coursework outside of class each day?",
     // 2022!
@@ -866,6 +869,7 @@ window.onload = () => {
     maxVal: 24,
     minVal: 0,
     title: "G.P.A. and Gender",
+    // 2022!!
   });
 
   sota.bigNumber({
@@ -879,7 +883,7 @@ window.onload = () => {
   sota.barChart({
     section: "school",
     dataFile: "assets/data/school/112-4_good",
-    totalResp: 854,
+    // totalResp: 854,
     title: "Grading Scale",
     subtitle: 'Do you think a "4" is a good grade?',
     // 2022!!
@@ -888,9 +892,8 @@ window.onload = () => {
   sota.barChart({
     section: "school",
     dataFile: "assets/data/school/114-department_disparity",
-    totalResp: 854,
     title: "Disparity between teachers",
-    subtitle: 'In which department(s), if any, is/are there an unreasonable grading disparity between teachers? Check all that apply.',
+    subtitle: "In which department(s), if any, is/are there an unreasonable grading disparity between teachers? Check all that apply.",
     // 2022!!
   });
 
@@ -903,15 +906,6 @@ window.onload = () => {
     subtitle:
       "Editor's note: this question uses data from the 2017 to 2022 State of the Academy surveys.",
       // 2022!!
-  });
-
-  sota.pieChart({
-    section: "school",
-    dataFile: "assets/data/school/schedule",
-    totalResp: 899,
-    title: "Schedule Changes",
-    subtitle:
-      "Are you satisfied with the way the school has scheduled classes, remote and on-campus, this year?",
   });
 
   sota.pieChart({
@@ -935,98 +929,115 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "school",
-    dataFile: "assets/data/school/extracurriculars",
+    dataFile: "assets/data/school/119-extracurriculars",
     labelStyle: "onBar",
     showLegend: true,
     title: "On Campus, I ...",
     subtitle:
       "Do you participate in any extracurriculars because you think they will increase your chances of getting into a selective college?",
+      // 2022!!
   });
 
   sota.pieChart({
     section: "school",
-    dataFile: "assets/data/school/teacher_care",
+    dataFile: "assets/data/school/121-teacher_care",
     totalResp: 903,
     title: "Teacher Support",
     subtitle:
       "Do you think that the majority of your teachers care about your health and well-being?",
+    // 2022!!
   });
 
+  sota.bigNumber({
+    section: "school",
+    number: "26.2%",
+    title: "Teacher Care",
+    subtitle: "of respondents do not think the majority of their teachers care about their health and well-being.",
+    // 2022!!
+  });
   sota.pieChart({
     section: "school",
-    dataFile: "assets/data/school/student_leader",
+    dataFile: "assets/data/school/117-student_leader",
     sorted: false,
     title: "Student Leadership",
     subtitle:
       "Are you currently a student leader (prefect, proctor, DSM, EBI Senior, Cluster or School Co-President) on campus?",
+      // 2022!!
   });
 
-  sota.pieChart({
-    section: "school",
-    dataFile: "assets/data/school/board_member",
-    sorted: false,
-    title: "Are you a board member of a club on campus?",
-  });
+  // sota.pieChart({
+  //   section: "school",
+  //   dataFile: "assets/data/school/board_member",
+  //   sorted: false,
+  //   title: "Are you a board member of a club on campus?",
+  // });
 
   sota.stackedBarChart({
     section: "school",
-    dataFile: "assets/data/school/children",
+    dataFile: "assets/data/school/122-children",
     labelStyle: "onBar",
     showLegend: true,
     title: "Would you want your children to attend andover?",
+    // 2022!!
   });
 
   sota.stackedBarChart({
     section: "school",
-    dataFile: "assets/data/school/family_relationship",
+    dataFile: "assets/data/school/124-family_relationship",
     labelStyle: "onBar",
     showLegend: true,
     title: "Andover and family",
     subtitle:
       "Has attending Andover affected your relationship ith your family?",
+      // 2022!!
   });
 
   sota.stackedBarChart({
     section: "school",
-    dataFile: "assets/data/school/leaving",
+    dataFile: "assets/data/school/120-leaving",
     labelStyle: "onBar",
     showLegend: true,
     title: "Leaving Andover",
     subtitle: "Have you ever considered leaving Andover permanently?",
+    // 2022!!
   });
 
   sota.bigNumber({
     section: "school",
-    number: "11.8%",
+    number: "12.1%",
     title: "Learning Accommodations",
     subtitle:
       "of respondents have disability/disorder/impairment that affects their learning.",
+      // 2022!!
   });
 
   sota.stackedBarChart({
     section: "school",
     dataFile: "assets/data/school/learning_disabilityXaccomodation",
     labelStyle: "onBar",
+    displayPercentage: true,
     groupLabelStyle: "onBar",
     showLegend: true,
     title:
       "Do you think Andover adequately accommodates students with learning disabilities?",
+      // 2022!!
   });
 
-  sota.pieChart({
-    section: "school",
-    dataFile: "assets/data/school/character",
-    sorted: false,
-    title: "Andover and Self",
-    subtitle:
-      "Generally speaking, has attending Andover significantly affected your character?",
-  });
+  // sota.pieChart({
+  //   section: "school",
+  //   dataFile: "assets/data/school/character",
+  //   sorted: false,
+  //   title: "Andover and Self",
+  //   subtitle:
+  //     "Generally speaking, has attending Andover significantly affected your character?",
+  // });
 
   sota.barChart({
     section: "school",
-    dataFile: "assets/data/school/come_to_andover",
+    dataFile: "assets/data/school/123-come_to_andover",
     title:
       "In retrospect, would you still make the decision to come to andover?",
+      // 2022!!
   });
 
   // --- DISCIPLINE!! ---
