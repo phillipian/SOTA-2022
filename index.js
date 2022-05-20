@@ -1629,6 +1629,25 @@ window.onload = () => {
     // 2022!!
   });
 
+  sota.bigNumber({
+    section: "sex",
+    number: "7.8%",
+    title: "Porn",
+    subtitle:
+      "of respondents watch porn daily.",
+    // 2022!!
+  });
+
+  sota.bigNumber({
+    section: "sex",
+    number: "3.7%",
+    title: "Sexual Activity",
+    subtitle:
+      "of respondents have sex daily.",
+    // 2022!!
+  });
+
+
   // --- DRUGS AND ALCOHOL!!! ---
 
   sota.barChart({
