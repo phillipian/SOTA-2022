@@ -659,36 +659,39 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "campus",
-    dataFile: "assets/data/campus/combat_climate_change",
+    dataFile: "assets/data/campus/135-combat_climate_change",
     showLegend: true,
     labelStyle: "onBar",
     title: "Climate change",
     subtitle:
       "Do you feel like Andover is doing enough to combat climate change?",
+      // 2022!!
   });
+
+//   sota.pieChart({
+//     section: "campus",
+//     dataFile: "assets/data/campus/134-environmental_justice",
+//     title: "climate education",
+//     subtitle:
+//       "Do you feel that environmental issues (global warming, water, and air pollution, etc.) directly impact your life?",
+//       // 2022!!
+//   });
+
+//   sota.barChart({
+//     section: "campus",
+//     dataFile: "assets/data/campus/carbon_footprint",
+//     displayPercentage: true,
+//     title: "carbon footprints",
+//     subtitle:
+//       "How often do you make conscious decisions to decrease your carbon footprint? A carbon footprint is “a measure of the carbon emissions of a particular individual, organization, or community” (Oxford Dictionary).",
+//   });
 
   sota.pieChart({
     section: "campus",
-    dataFile: "assets/data/campus/environmental_justice",
-    title: "climate education",
-    subtitle:
-      "Have your classes covered climate change and other environmental justice issues?",
-  });
-
-  sota.barChart({
-    section: "campus",
-    dataFile: "assets/data/campus/carbon_footprint",
-    displayPercentage: true,
-    title: "carbon footprints",
-    subtitle:
-      "How often do you make conscious decisions to decrease your carbon footprint? A carbon footprint is “a measure of the carbon emissions of a particular individual, organization, or community” (Oxford Dictionary).",
-  });
-
-  sota.pieChart({
-    section: "campus",
-    dataFile: "assets/data/campus/environment_impact",
+    dataFile: "assets/data/campus/134-environment_impact",
     title:
       "Do you feel that environmental issues (global warming, water, and air pollution, etc.) directly impact your life?",
+      // 2022!!
   });
 
   // sota.pieChart({
@@ -706,16 +709,18 @@ window.onload = () => {
     title: "Fossil Fuels",
     subtitle:
       "Do you believe that Andover should divest from fossil fuel companies?",
+      // 2022!!
   });
 
   sota.stackedBarChart({
     section: "campus",
-    dataFile: "assets/data/campus/ideologicaldiversity",
+    dataFile: "assets/data/campus/128-ideologicaldiversity",
     showLegend: true,
     labelStyle: "onBar",
     title: "ideological diversity",
     subtitle:
       "Do you think the school promotes ideological diversity in its selection of speakers?",
+      // 2022!!
   });
 
   sota.stackedBarChart({
@@ -727,23 +732,25 @@ window.onload = () => {
     title: "ideological diversity by political affiliation",
     subtitle:
       "Do you think the school promotes ideological diversity in its selection of speakers?",
+      // 2022!!
   });
 
-  sota.pieChart({
-    section: "campus",
-    dataFile: "assets/data/campus/mlkday",
-    showLegend: true,
-    title: "MLK day",
-    subtitle: "Do you feel that the MLK Day curriculum is adequate?",
-  });
+//   sota.pieChart({
+//     section: "campus",
+//     dataFile: "assets/data/campus/mlkday",
+//     showLegend: true,
+//     title: "MLK day",
+//     subtitle: "Do you feel that the MLK Day curriculum is adequate?",
+//   });
 
   sota.stackedBarChart({
     section: "campus",
-    dataFile: "assets/data/campus/antiracist",
+    dataFile: "assets/data/campus/129-antiracismwork",
     showLegend: true,
     labelStyle: "onBar",
     title: "Anti-racist work",
     subtitle: "Do you think Andover’s anti-racist work is sufficient?",
+    // 2022!!
   });
 
   sota.stackedBarChart({
@@ -754,6 +761,7 @@ window.onload = () => {
     labelStyle: "onBar",
     title: "anti-racist work by race",
     subtitle: "Do you think Andover’s anti-racist work is sufficient?",
+    // 2022!!
   });
 
   sota.stackedColumnChart({
@@ -764,25 +772,27 @@ window.onload = () => {
     labelStyle: "onBar",
     title: "anti-racist work by class year",
     subtitle: "Do you think Andover’s anti-racist work is sufficient?",
+    // 2022!!
   });
+
+//   sota.stackedBarChart({
+//     section: "campus",
+//     dataFile: "assets/data/campus/antiracismtaskforce",
+//     showLegend: true,
+//     labelStyle: "onBar",
+//     title: "Anti-racism task force",
+//     subtitle:
+//       "Do you feel the creation of the Anti-Racism Task Force was a productive choice in making Andover a more racially equitable, inclusive, and just community?",
+//   });
 
   sota.stackedBarChart({
     section: "campus",
-    dataFile: "assets/data/campus/antiracismtaskforce",
-    showLegend: true,
-    labelStyle: "onBar",
-    title: "Anti-racism task force",
-    subtitle:
-      "Do you feel the creation of the Anti-Racism Task Force was a productive choice in making Andover a more racially equitable, inclusive, and just community?",
-  });
-
-  sota.stackedBarChart({
-    section: "campus",
-    dataFile: "assets/data/campus/indigenousday",
+    dataFile: "assets/data/campus/130-indigenousday",
     showLegend: true,
     labelStyle: "onBar",
     title:
       'Do you think that Andover should have a "day on" for Indigenous People\'s Day?',
+      // 2022!!
   });
 
   // sota.stackedBarChart({
@@ -803,18 +813,12 @@ window.onload = () => {
 
   sota.pieChart({
     section: "campus",
-    dataFile: "assets/data/campus/supportive",
+    dataFile: "assets/data/campus/139-supportive",
     title: "Support from faculty",
     subtitle:
-      "Do you think your teachers/other adults on campus have been sufficiently supportive or flexible during significant and possibly traumatic global events over the past year?",
-  });
+      "Which of the faculty/staff members in your life do you feel are supportive of a diverse range of students? Check all that apply.",
+      // 2022!!
 
-  sota.pieChart({
-    section: "campus",
-    dataFile: "assets/data/campus/virtual_support",
-    title: "virtual support sessions",
-    subtitle:
-      "Did you attend any of the virtual support sessions that Andover provided after significant and possibly traumatic global events (community spaces with Sykes, the Brace Center, the Chaplaincy, trauma counseling, etc.) and if so, were they helpful?",
   });
 
   // sota.pieChart({
@@ -840,6 +844,7 @@ window.onload = () => {
     labelStyle: "onBar",
     title:
       "Do you think that Andover prioritizes athletics(compared to music, art, robotics, etc.)?",
+      // 2022!!
   });
 
   // --- SCHOOL!! ---
