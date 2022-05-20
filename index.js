@@ -978,19 +978,21 @@ window.onload = () => {
         labelStyle: "onBar",
         groupLabelStyle: "onBar",
         title: "Sexual Activity by class year",
-        totalResp: {2024: 227, 2023: 232, 2022: 240, 2021: 246},
+        totalResp: {2025: 183, 2024: 333, 2023: 377, 2022: 445},
         subtitle: "What form(s) of sexual activity have you engaged in?"
+        // 2022!!
     });
 
-    sota.groupedBarChart({
-        section: "senior",
+    sota.stackedColumnChart({
+        section: "sex",
         dataFile: "assets/data/sex/sexfreqXgender",
-        showLegend: true,
-        labelStyle: "onBar",
-        groupLabelStyle: "onBar",
-        // totalResp: {2018: 230, 2019: 361, 2020: 524, 2021: 519},
+        showLegend: false,
+        // labelStyle: "onBar",
+        // groupLabelStyle: "onBar",
+        // totalResp: {"Not applicable": 90, 2: 87, 3: 74, 4: 71, 5: 48, 6: 14},
         title: "Sexual Frequency by Gender Identity",
-        subtitle: "How frequently different "
+        subtitle: "How frequently various gender identities have sex."
+        // 2022!!
     });
 
     sota.stackedBarChart({
@@ -1027,6 +1029,14 @@ window.onload = () => {
         subtitle: "Have you ever contracted a Sexually Transmitted Infection (STI) or Sexually Transmitted Disease (STD)?"
         // 2022!!
     });
+
+    sota.bigNumber({
+        section:"sex",
+        number: "19.0%",
+        title: "Sex, Drugs, and Alcohol",
+        subtitle: "of respondents who have consumed drugs or alcohol have had sex under the influence."
+        // 2022!!
+    })
 
     sota.lineGraph({
         section: "sex",
@@ -1079,6 +1089,22 @@ window.onload = () => {
         // 2022!!
     });
 
+    sota.bigNumber({
+        section:"sex",
+        number: "18.6%",
+        title:"Partner Pressure",
+        subtitle: "of respondents have felt pressured by their partners to engage in sexual activity."
+        // 2022!!
+    })
+
+    sota.bigNumber({
+        section:"sex",
+        number: "32.6%",
+        title:"\"Hooking-up\"",
+        subtitle: "of respondents have \"hooked up\" with someone they were not in a committed relationship with"
+        // 2022!!
+    })
+
     sota.stackedBarChart({
         section:"sex",
         dataFile: "assets/data/sex/77-rape_culture",
@@ -1116,41 +1142,48 @@ window.onload = () => {
         labelStyle: "onBar",
         title: "inter-class relationships",
         subtitle: "If you are currently in a committed relationship, what class is your partner in?"
+        // 2022!!
     });
 
     sota.stackedBarChart({
         section: "sex",
-        dataFile: "assets/data/sex/telling_friends_masturbate",
+        dataFile: "assets/data/sex/84-telling_friends_masturbate",
         showLegend: true,
         labelStyle: "onBar",
         groupLabelStyle: "onBar",
-        title: "Would you feel comfortable telling your friends that you masturbate?"
+        displayPercentage: true,
+        title: "Would you feel comfortable telling your friends that you masturbate?",
+        subtitle:"Editor's Note: Correlated statistics from respondents who identify as agender, genderfluid, genderqueer, and nonbinary have been removed in an effort to protect the complete anonymity of these respondents."
+        // 2022!!
     });
 
     sota.stackedBarChart({
         section: "sex",
-        dataFile: "assets/data/sex/masturbation",
+        dataFile: "assets/data/sex/83-masturbation",
         showLegend: true,
         labelStyle: "onBar",
         groupLabelStyle: "onBar",
         title: "masturbation",
         subtitle: "How frequently do you masturbate?"
+        // 2022!!
     });
 
     sota.barChart({
         section:"sex",
-        dataFile: "assets/data/sex/porn",
+        dataFile: "assets/data/sex/85-porn",
         displayPercentage: true,
         title: "Porn",
         subtitle: "If you watch pornography/read pornographic materials, how frequently, on average, do you do so?"
+        // 2022!!
     });
 
     sota.columnChart({
         section:"sex",
-        dataFile: "assets/data/sex/harassed",
+        dataFile: "assets/data/sex/89-harassed",
         displayPercentage: true,
         totalResp: 949,
         title: "Have you ever been sexually harassed?"
+        // 2022!!
     });
 
     sota.columnChart({
@@ -1162,13 +1195,6 @@ window.onload = () => {
         // 2022!! 
     });
 
-    // sota.pieChart({
-    //     section:"sex",
-    //     dataFile: "assets/data/sex/sexted",
-    //     displayPercentage: true,
-    //     title: "NEED TO KEEP ?!!!Have you ever sent a sexually explicit photo of yourself?"
-    // });
-
     sota.bigNumber({
         section:"sex",
         number: "25.2%",
@@ -1179,19 +1205,21 @@ window.onload = () => {
 
     sota.pieChart({
         section:"sex",
-        dataFile: "assets/data/sex/receive_sext",
+        dataFile: "assets/data/sex/86-receive_sext",
         displayPercentage: true,
         title: "Have you ever received a sexually explicit photo?"
+        // 2022!!
     });
 
     sota.stackedBarChart({
         section: "sex",
-        dataFile: "assets/data/sex/sexual_racism",
+        dataFile: "assets/data/sex/90-sex_racial",
         showLegend: true,
         labelStyle: "onBar",
         groupLabelStyle: "onBar",
         title: "Sexual racism",
         subtitle: "Have you ever been sexualized (including being fetishized and hypersexualized) or desexualized (including being defeminized and emasculated) due to your racial-ethnic identity?"
+        // 2022!!
     });
 
 
