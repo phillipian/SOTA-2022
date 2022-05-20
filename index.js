@@ -96,21 +96,21 @@ sota.sotaConfig.sections = [
     blurb:
       "While 66.1 percent of day students think day students are able to integrate enough with boarding students at Andover this year, while just 37.8 percent agreed. On the basis of socioeconomic equity, 16.9 percent of respondents that feel like their capability of attaining a leadership position is affected by their socioeconomic status are of lower and lower middle class. 67.3 percent ​​of respondents who are black feel as though Andover’s faculty is lacking racial diversity.",
   },
-  {
-    slug: "senior",
-    name: "Senior Sota",
-    colors: [
-      "#235085",
-      "#1065a1",
-      "#0b88c0",
-      "#22a7d3",
-      "#4ac2e5",
-      "#7CB7D1",
-      "#8dd1e9",
-      "#c6e6f3",
-      "#e3f4fb",
-    ],
-  },
+//   {
+//     slug: "senior",
+//     name: "Senior Sota",
+//     colors: [
+//       "#235085",
+//       "#1065a1",
+//       "#0b88c0",
+//       "#22a7d3",
+//       "#4ac2e5",
+//       "#7CB7D1",
+//       "#8dd1e9",
+//       "#c6e6f3",
+//       "#e3f4fb",
+//     ],
+//   },
 ];
 
 sota.setColors(sota.sotaConfig);
@@ -557,14 +557,14 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "politics",
-    number: "31.6%",
+    number: "31.3%",
     title: '"Reverse Racism"',
     subtitle:
       "of respondents believe that white people can experience racism, a decrease from 2021's 33.3%.",
     // 2022!!
   });
 
-  sota.stackedColumnChart({
+  sota.barChart({
     section: "politics",
     dataFile: "assets/data/politics/32-reverse_racism",
     title: '"Reverse Racism"',
@@ -2130,136 +2130,136 @@ window.onload = () => {
 
   //senior
 
-  sota.stackedBarChart({
-    section: "senior",
-    dataFile: "assets/data/senior/college",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Andover and college",
-    subtitle:
-      "Do you think attending Andover affects your chances of attending a selective college?",
-  });
-  sota.stackedBarChart({
-    section: "senior",
-    dataFile: "assets/data/senior/happiness",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Happiness",
-    subtitle: "Generally speaking, do you consider yourself happy at Andover?",
-  });
+//   sota.stackedBarChart({
+//     section: "senior",
+//     dataFile: "assets/data/senior/college",
+//     showLegend: true,
+//     labelStyle: "onBar",
+//     groupLabelStyle: "onBar",
+//     title: "Andover and college",
+//     subtitle:
+//       "Do you think attending Andover affects your chances of attending a selective college?",
+//   });
+//   sota.stackedBarChart({
+//     section: "senior",
+//     dataFile: "assets/data/senior/happiness",
+//     showLegend: true,
+//     labelStyle: "onBar",
+//     groupLabelStyle: "onBar",
+//     title: "Happiness",
+//     subtitle: "Generally speaking, do you consider yourself happy at Andover?",
+//   });
 
-  sota.groupedBarChart({
-    section: "senior",
-    dataFile: "assets/data/senior/sexual_activity",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    totalResp: { 2018: 230, 2019: 361, 2020: 524, 2021: 519 },
-    title: "Sexual Activity",
-    subtitle: "What form(s) of sexual activity have you engaged in?",
-  });
+//   sota.groupedBarChart({
+//     section: "senior",
+//     dataFile: "assets/data/senior/sexual_activity",
+//     showLegend: true,
+//     labelStyle: "onBar",
+//     groupLabelStyle: "onBar",
+//     totalResp: { 2018: 230, 2019: 361, 2020: 524, 2021: 519 },
+//     title: "Sexual Activity",
+//     subtitle: "What form(s) of sexual activity have you engaged in?",
+//   });
 
-  sota.stackedColumnChart({
-    section: "senior",
-    dataFile: "assets/data/senior/alcohol",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Have you ever consumed alcohol?",
-  });
+//   sota.stackedColumnChart({
+//     section: "senior",
+//     dataFile: "assets/data/senior/alcohol",
+//     showLegend: true,
+//     labelStyle: "onBar",
+//     groupLabelStyle: "onBar",
+//     title: "Have you ever consumed alcohol?",
+//   });
 
-  sota.stackedColumnChart({
-    section: "senior",
-    dataFile: "assets/data/senior/marijuana",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Have you ever consumed marijuana?",
-  });
+//   sota.stackedColumnChart({
+//     section: "senior",
+//     dataFile: "assets/data/senior/marijuana",
+//     showLegend: true,
+//     labelStyle: "onBar",
+//     groupLabelStyle: "onBar",
+//     title: "Have you ever consumed marijuana?",
+//   });
 
-  sota.stackedColumnChart({
-    section: "senior",
-    dataFile: "assets/data/senior/rape_culture",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Do you believe there is rape culture at Andover?",
-    subtitle:
-      "Rape culture: “a society or environment whose prevailing social attitudes have the effect of normalizing or trivializing sexual assault and abuse” (Oxford Dictionaries).",
-  });
+//   sota.stackedColumnChart({
+//     section: "senior",
+//     dataFile: "assets/data/senior/rape_culture",
+//     showLegend: true,
+//     labelStyle: "onBar",
+//     groupLabelStyle: "onBar",
+//     title: "Do you believe there is rape culture at Andover?",
+//     subtitle:
+//       "Rape culture: “a society or environment whose prevailing social attitudes have the effect of normalizing or trivializing sexual assault and abuse” (Oxford Dictionaries).",
+//   });
 
-  sota.stackedColumnChart({
-    section: "senior",
-    dataFile: "assets/data/senior/sexual_orientation",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "sexuality over the years",
-    subtitle: "What is your sexual orientation?",
-  });
+//   sota.stackedColumnChart({
+//     section: "senior",
+//     dataFile: "assets/data/senior/sexual_orientation",
+//     showLegend: true,
+//     labelStyle: "onBar",
+//     groupLabelStyle: "onBar",
+//     title: "sexuality over the years",
+//     subtitle: "What is your sexual orientation?",
+//   });
 
-  sota.stackedColumnChart({
-    section: "senior",
-    dataFile: "assets/data/senior/feminist",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Do you consider yourself a feminist?",
-  });
+//   sota.stackedColumnChart({
+//     section: "senior",
+//     dataFile: "assets/data/senior/feminist",
+//     showLegend: true,
+//     labelStyle: "onBar",
+//     groupLabelStyle: "onBar",
+//     title: "Do you consider yourself a feminist?",
+//   });
 
-  sota.stackedColumnChart({
-    section: "senior",
-    dataFile: "assets/data/senior/relationships",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Committed relationships",
-    subtitle: "Have you ever been in a committed relationship?",
-  });
+//   sota.stackedColumnChart({
+//     section: "senior",
+//     dataFile: "assets/data/senior/relationships",
+//     showLegend: true,
+//     labelStyle: "onBar",
+//     groupLabelStyle: "onBar",
+//     title: "Committed relationships",
+//     subtitle: "Have you ever been in a committed relationship?",
+//   });
 
-  sota.stackedBarChart({
-    section: "senior",
-    dataFile: "assets/data/senior/family",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Andover and Family",
-    subtitle:
-      "Has attending Andover affected your relationship ith your family?",
-  });
+//   sota.stackedBarChart({
+//     section: "senior",
+//     dataFile: "assets/data/senior/family",
+//     showLegend: true,
+//     labelStyle: "onBar",
+//     groupLabelStyle: "onBar",
+//     title: "Andover and Family",
+//     subtitle:
+//       "Has attending Andover affected your relationship ith your family?",
+//   });
 
-  sota.stackedColumnChart({
-    section: "senior",
-    dataFile: "assets/data/senior/come_to_andover",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title:
-      "IN RETROSPECT, WOULD YOU STILL MAKE THE DECISION TO COME TO ANDOVER?",
-    // subtitle: "Have you ever been in a committed relationship?"
-  });
+//   sota.stackedColumnChart({
+//     section: "senior",
+//     dataFile: "assets/data/senior/come_to_andover",
+//     showLegend: true,
+//     labelStyle: "onBar",
+//     groupLabelStyle: "onBar",
+//     title:
+//       "IN RETROSPECT, WOULD YOU STILL MAKE THE DECISION TO COME TO ANDOVER?",
+//     // subtitle: "Have you ever been in a committed relationship?"
+//   });
 
-  sota.stackedColumnChart({
-    section: "senior",
-    dataFile: "assets/data/senior/children",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "WOULD YOU WANT YOUR CHILDREN TO ATTEND ANDOVER?",
-    // subtitle: "Have you ever been in a committed relationship?"
-  });
+//   sota.stackedColumnChart({
+//     section: "senior",
+//     dataFile: "assets/data/senior/children",
+//     showLegend: true,
+//     labelStyle: "onBar",
+//     groupLabelStyle: "onBar",
+//     title: "WOULD YOU WANT YOUR CHILDREN TO ATTEND ANDOVER?",
+//     // subtitle: "Have you ever been in a committed relationship?"
+//   });
 
-  sota.stackedBarChart({
-    section: "senior",
-    dataFile: "assets/data/senior/political_affiliation",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Political Affiliation",
-    subtitle: "What is your political affiliation?",
-  });
+//   sota.stackedBarChart({
+//     section: "senior",
+//     dataFile: "assets/data/senior/political_affiliation",
+//     showLegend: true,
+//     labelStyle: "onBar",
+//     groupLabelStyle: "onBar",
+//     title: "Political Affiliation",
+//     subtitle: "What is your political affiliation?",
+//   });
 
   sota.sotaMasonry();
 };
