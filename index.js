@@ -644,7 +644,7 @@ window.onload = () => {
       // 2022!!
   });
 
-  //Campus Culture
+  // --- CAMPUS CULTURE!! ----
 
   sota.stackedBarChart({
     section: "campus",
@@ -784,9 +784,10 @@ window.onload = () => {
 
   sota.pieChart({
     section: "campus",
-    dataFile: "assets/data/campus/shuman",
+    dataFile: "assets/data/campus/133-shuman",
     title:
       "Do you think that the Shuman Office of Admissions accurately presents the school?",
+      // 2022!!
   });
 
   sota.pieChart({
@@ -830,21 +831,32 @@ window.onload = () => {
       "Do you think that Andover prioritizes athletics(compared to music, art, robotics, etc.)?",
   });
 
-  // School
+  // --- SCHOOL!! ---
 
   sota.bigNumber({
     section: "school",
-    number: "4.53",
+    number: "5.7",
     title: "Time Spent on Coursework",
-    subtitle: "average hours spent on coursework daily.",
+    subtitle: "average hours spent on coursework daily, a 1.17 hour increase from 2021 (last year).",
+    // 2022!!
   });
 
   sota.lineGraph({
     section: "school",
-    dataFile: "assets/data/school/gpa",
+    dataFile: "assets/data/school/113-hours_on_coursework",
+    maxVal: 180,
+    title: "Hours on coursework",
+    subtitle: "Q113. How many hours do you spend on coursework outside of class each day?",
+    // 2022!
+  });
+
+  sota.lineGraph({
+    section: "school",
+    dataFile: "assets/data/school/111-gpa",
     maxVal: 180,
     title: "G.P.A",
-    subtitle: "What was your rounded Winter 2020-2021 G.P.A?",
+    subtitle: "What was your rounded Winter 2021-2022 G.P.A.? (If you are between two numbers, round up to the closest decimal – a 5.3 G.P.A. would round to a 5.4. If you earned a Pass or multiple Passes, exclude this from your calculation.)",
+    // 2022!!
   });
 
   sota.multiLineGraph({
@@ -858,17 +870,28 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "school",
-    number: "5.50",
+    number: "5.35",
     title: "Overall Average G.P.A",
-    subtitle: "Winter 2020-2021",
+    subtitle: "Winter 2021-2022",
+    // 2022!!
   });
 
   sota.barChart({
     section: "school",
-    dataFile: "assets/data/school/grading_scale",
-    totalResp: 905,
+    dataFile: "assets/data/school/112-4_good",
+    totalResp: 854,
     title: "Grading Scale",
     subtitle: 'Do you think a "4" is a good grade?',
+    // 2022!!
+  });
+
+  sota.barChart({
+    section: "school",
+    dataFile: "assets/data/school/114-department_disparity",
+    totalResp: 854,
+    title: "Disparity between teachers",
+    subtitle: 'In which department(s), if any, is/are there an unreasonable grading disparity between teachers? Check all that apply.',
+    // 2022!!
   });
 
   sota.lineGraph({
@@ -878,7 +901,8 @@ window.onload = () => {
     minVal: 5.0,
     title: "Average G.P.A Since 2017",
     subtitle:
-      "Editor's note: this question uses data from the 2017 to 2021 State of the Academy surveys.",
+      "Editor's note: this question uses data from the 2017 to 2022 State of the Academy surveys.",
+      // 2022!!
   });
 
   sota.pieChart({
@@ -892,11 +916,12 @@ window.onload = () => {
 
   sota.pieChart({
     section: "school",
-    dataFile: "assets/data/school/switch_teacher",
+    dataFile: "assets/data/school/115-switch_teacher",
     sorted: false,
     title: "Switching Teachers",
     subtitle:
       "Have you ever switched or attempted to switch teachers within the same course in order to attain a better grade?",
+      // 2022!!
   });
 
   sota.stackedColumnChart({
@@ -905,6 +930,7 @@ window.onload = () => {
     title: "Andover College",
     subtitle:
       "Do you think attending Andover affets your chances of attending a selective college?",
+      // 2022!!
   });
 
   sota.stackedBarChart({
@@ -1003,40 +1029,44 @@ window.onload = () => {
       "In retrospect, would you still make the decision to come to andover?",
   });
 
-  // Discipline
+  // --- DISCIPLINE!! ---
 
   sota.bigNumber({
     section: "discipline",
-    number: "42.9%",
+    number: "40.6%",
     title: "Major Offenses",
     subtitle:
       "of respondents have commited a major offense without being caught.",
+      // 2022!!
   });
 
   sota.pieChart({
     section: "discipline",
-    dataFile: "assets/data/discipline/CCCDC",
+    dataFile: "assets/data/discipline/148-CCCDC",
     sorted: false,
     title: "Have you ever sat before a ccc or a dc?",
+    // 2022!!
   });
 
   sota.columnChart({
     section: "discipline",
-    dataFile: "assets/data/discipline/consequences",
+    dataFile: "assets/data/discipline/149-consequences",
     totalResp: 895,
     title:
       "Which of the following disciplinary consequences have you recieved?",
+      // 2022!!
   });
 
   sota.stackedBarChart({
     section: "discipline",
-    dataFile: "assets/data/discipline/effectiveXDC",
+    dataFile: "assets/data/discipline/effectiveXconsequences",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     showLegend: true,
     title: "DC System Effectiveness",
     subtitle:
       "Do you think that the DC system effectively disciplines students who are caught breaking school rules?",
+      // 2022!!
   });
 
   sota.stackedBarChart({
@@ -1050,19 +1080,39 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "discipline",
-    number: "36.0%",
+    number: "33.0%",
     title: "Concerning Contraband",
     subtitle:
       "of respondents think that the administration should have the right to search an entire dorm for contraband material.",
+      // 2022!!
   });
 
   sota.pieChart({
     section: "discipline",
-    dataFile: "assets/data/discipline/cheated",
+    dataFile: "assets/data/discipline/152-cheated",
     sorted: false,
     title: "Cheating",
     subtitle:
       "Have you ever cheated on any tests, quizzes, or in-class assessments while at Andover?",
+      // 2022!!
+  });
+
+  sota.bigNumber({
+    section: "discipline",
+    number: "36.5%",
+    title: "Room Visits—Have you ever had a room visit: \"visiting the dormitory room of or inviting an individual from outside your dormitory to your dorm room?\"",
+    subtitle:
+      "of respondents had illegal visitations to their dorms.",
+    // 2022!!
+  });
+
+  sota.bigNumber({
+    section: "discipline",
+    number: "68.3%",
+    title: "Room Visits",
+    subtitle:
+      "of respondents do not agree with this year's changes.",
+    // 2022!!
   });
 
   sota.stackedColumnChart({
@@ -1075,49 +1125,34 @@ window.onload = () => {
 
   sota.barChart({
     section: "discipline",
-    dataFile: "assets/data/discipline/understand_processes",
+    dataFile: "assets/data/discipline/147-understand_processes",
     totalResp: 880,
     displayPercentage: true,
     title: "DC Understanding",
     subtitle: "Do you understand the CCC and DC processes?",
+    // 2022!!
   });
 
-  sota.pieChart({
-    section: "discipline",
-    dataFile: "assets/data/discipline/cheatedXcovid",
-    sorted: false,
-    title: "Cheating and Covid",
-    subtitle:
-      "Has online school influenced the frequency in which you commit academic dishonesty?",
-  });
 
   sota.stackedBarChart({
     section: "discipline",
-    dataFile: "assets/data/discipline/plagiarized",
+    dataFile: "assets/data/discipline/153-plagiarized",
     sorted: false,
     title: "Plagiarizing",
     subtitle: "Have you ever plagiarized while at Andover?",
+    // 2022!!
   });
 
-  sota.stackedBarChart({
-    section: "discipline",
-    dataFile: "assets/data/discipline/favors_privilegedXincome",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    showLegend: false,
-    title: "The dc system, privilege, and net family income",
-    subtitle:
-      "Do you think that the school's disciplinary system favors students of privileged backgrounds?",
-  });
-
-  sota.pieChart({
-    section: "discipline",
-    dataFile: "assets/data/discipline/cruise",
-    sorted: false,
-    title: "Cruising",
-    subtitle:
-      "Have you ever cruised (stayed out of your dorm or on campus after sign-in)?",
-  });
+  // sota.stackedBarChart({
+  //   section: "discipline",
+  //   dataFile: "assets/data/discipline/favors_privilegedXincome",
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   showLegend: false,
+  //   title: "The dc system, privilege, and net family income",
+  //   subtitle:
+  //     "Do you think that the school's disciplinary system favors students of privileged backgrounds?",
+  // });
 
   // Community Diversity
 
@@ -1536,73 +1571,70 @@ window.onload = () => {
     // 2022!!
   });
 
-  //drugs
-  sota.stackedBarChart({
+  // --- DRUGS AND ALCOHOL!!! ---
+
+  sota.barChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/alcoholXclass",
+    dataFile: "assets/data/drugs/95-alcohol",
     displayPercentage: true,
     groupLabelStyle: "onBar",
     title: "Alcohol",
     subtitle: "Have you ever consumed alcohol recreationally?",
+    // 2022!!
   });
 
-  sota.stackedBarChart({
+
+  sota.bigNumber({
     section: "drugs",
-    dataFile: "assets/data/drugs/marijuanaXclass",
+    number: "28.6%",
+    title: "drugs",
+    subtitle:
+      "of respondents consume drugs.",
+      // 2022!!
+  });
+
+  sota.barChart({
+    section: "drugs",
+    dataFile: "assets/data/drugs/98-marijuana",
     displayPercentage: true,
     groupLabelStyle: "onBar",
     title: "Marijuana",
     subtitle: "Have you ever used marijuana?",
+    // 2022!!
   });
 
-  sota.stackedBarChart({
+  sota.columnChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/tobaccoXclass",
+    dataFile: "assets/data/drugs/96-tobacco",
     displayPercentage: true,
     groupLabelStyle: "onBar",
     title: "tobacco",
     subtitle:
       "Have you ever used any tobacco products (e.g. dipping and chewing tobacco, cigarettes)?",
+      // 2022!!
   });
 
-  sota.stackedBarChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/juulXclass",
-    displayPercentage: true,
-    groupLabelStyle: "onBar",
-    title: " vaping ",
-    subtitle:
-      'Have you ever "juuled" or used a similar e-cigarette/pod vape nicotine-based product?',
-  });
+  // sota.stackedBarChart({
+  //   section: "drugs",
+  //   dataFile: "assets/data/drugs/juulXclass",
+  //   displayPercentage: true,
+  //   groupLabelStyle: "onBar",
+  //   title: " vaping ",
+  //   subtitle:
+  //     'Have you ever "juuled" or used a similar e-cigarette/pod vape nicotine-based product?',
+  // });
 
   sota.barChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/drug_frequency",
+    dataFile: "assets/data/drugs/99-drug_frequency",
     displayPercentage: true,
     totalResp: 949,
     title: "Drug habits",
     subtitle:
       "How often do you consume recreational drugs or alcohol on campus?",
+      // 2022!!
   });
 
-  sota.stackedBarChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/drugs_covid",
-    showLegend: true,
-    title: "consumption and covid-19",
-    subtitle:
-      "How has the Covid-19 pandemic impacted the frequency in which you consume recreational drugs or alcohol?",
-  });
-
-  sota.stackedBarChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/vapeXincome",
-    displayPercentage: true,
-    groupLabelStyle: "onBar",
-    title: "Vape use vs. income ",
-    subtitle:
-      'Have you ever "juuled" or used a similar e-cigarette/pod vape nicotine-based product?',
-  });
 
   sota.bigNumber({
     section: "drugs",
@@ -1621,20 +1653,22 @@ window.onload = () => {
 
   sota.pieChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/influence_friends",
+    dataFile: "assets/data/drugs/107-influence_friends",
     displayPercentage: true,
     title: "drugs and friendships",
     title:
       "Do you think that recreational drug or alcohol use significantly influences your friendships at Andover?",
+      // 2022!!
   });
 
   sota.pieChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/dorm_drug",
+    dataFile: "assets/data/drugs/102-dorm_drug",
     displayPercentage: true,
     title: "dorm culture",
     subtitle:
       "Do you think your dorm significantly influences how you think about/use drugs and alcohol?",
+      // 2022!!
   });
 
   sota.bigNumber({
@@ -1647,67 +1681,84 @@ window.onload = () => {
 
   sota.pieChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/study_drugs",
+    dataFile: "assets/data/drugs/104-study_drugs",
     displayPercentage: true,
     title: "study drugs",
     subtitle:
       "Have you ever used pharmaceutical drugs in the hopes of enhancing academic performance (i.e. “study drugs”) during your time at Andover?",
+      // 2022!!
+  });
+
+  sota.stackedBarChart({
+    section: "drugs",
+    dataFile: "assets/data/drugs/studydrugsXgpa",
+    displayPercentage: true,
+    groupLabelStyle: "onBar",
+    title: "Study drug use vs. GPA",
+    subtitle:
+      'respondents who use study drugs compared to their GPA.',
+      // 2022!!
   });
 
   sota.barChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/hard_drugs",
+    dataFile: "assets/data/drugs/103-hard_drugs",
     displayPercentage: true,
     totalResp: 949,
     title: "Hallucinogens & hard drugs",
     subtitle: "Have you ever used hallucinogens or hard drugs?",
+    // 2022!!
   });
 
+  // sota.stackedBarChart({
+  //   section: "drugs",
+  //   dataFile: "assets/data/drugs/drugs_for_stress",
+  //   showLegend: true,
+  //   labelStyle: "onBar",
+  //   title: "stress relief",
+  //   subtitle:
+  //     "If you consume recreational drugs or alcohol on campus, do you do so primarily to relieve stress?",
+  // });
   sota.stackedBarChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/drugs_for_stress",
-    showLegend: true,
-    labelStyle: "onBar",
-    title: "stress relief",
-    subtitle:
-      "If you consume recreational drugs or alcohol on campus, do you do so primarily to relieve stress?",
-  });
-  sota.stackedBarChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/peer_pressure",
+    dataFile: "assets/data/drugs/105-peer_pressure",
     showLegend: true,
     labelStyle: "onBar",
     title: "peer pressure",
     subtitle:
       "Have you ever felt pressured by peers to consume recreational drugs or alcohol on campus?",
+      // 2022!!
   });
   sota.pieChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/sold_drugs",
+    dataFile: "assets/data/drugs/106-sold_drugs",
     displayPercentage: true,
     sorted: false,
     title: "sales",
     subtitle:
       "Have you ever sold someone recreational drugs, alcohol, or your prescription medication?",
+      // 2022!!
   });
 
   sota.barChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/location",
+    dataFile: "assets/data/drugs/107-location",
     displayPercentage: true,
     totalResp: 949,
     title: "location",
     subtitle:
       "In which of the following settings at Andover have you been under the influence of recreational drugs or alcohol?",
+      // 2022!!
   });
 
   sota.pieChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/been_sancted",
+    dataFile: "assets/data/drugs/109-been_sancted",
     displayPercentage: true,
     title: "Have you ever been sanctuaried?",
     subtitle:
       "Sanctuary: provided with a means of accessing support in situations where alcohol, drugs, tobacco, and/or nicotine are involved WITHOUT disciplinary consequences (The Blue Book)?",
+      // 2022!!
   });
 
   // ----- WELLNESS!! <3 ------
