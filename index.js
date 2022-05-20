@@ -984,12 +984,12 @@ window.onload = () => {
 
     sota.groupedBarChart({
         section: "senior",
-        dataFile: "assets/data/senior/sexfreqXgender",
+        dataFile: "assets/data/sex/sexfreqXgender",
         showLegend: true,
         labelStyle: "onBar",
         groupLabelStyle: "onBar",
-        totalResp: {2018: 230, 2019: 361, 2020: 524, 2021: 519},
-        title: "Sexual Activity",
+        // totalResp: {2018: 230, 2019: 361, 2020: 524, 2021: 519},
+        title: "Sexual Frequency by Gender Identity",
         subtitle: "How frequently different "
     });
 
@@ -1101,11 +1101,12 @@ window.onload = () => {
 
     sota.stackedBarChart({
         section: "sex",
-        dataFile: "assets/data/sex/committed_relationship",
+        dataFile: "assets/data/sex/80-committed_relationship",
         showLegend: true,
         labelStyle: "onBar",
         groupLabelStyle: "onBar",
         title: "Have you ever been in a committed relationship?"
+        // 2022!!
     });
 
     sota.stackedColumnChart({
@@ -1154,10 +1155,11 @@ window.onload = () => {
 
     sota.columnChart({
         section:"sex",
-        dataFile: "assets/data/sex/assaulted",
+        dataFile: "assets/data/sex/91-assaulted",
         displayPercentage: true,
         totalResp: 949,
         title: "Have you ever been sexually assaulted?"
+        // 2022!! 
     });
 
     // sota.pieChart({
@@ -1169,9 +1171,10 @@ window.onload = () => {
 
     sota.bigNumber({
         section:"sex",
-        number: "24.9%",
+        number: "25.2%",
         title:"sexting",
         subtitle: "of respondents have sent a sexually explicit photo of themselves."
+        // 2022!!
     })
 
     sota.pieChart({
