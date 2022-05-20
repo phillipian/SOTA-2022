@@ -90,8 +90,8 @@ sota.sotaConfig.sections = [
       "Students at Andover on average sleep 6.65 hours a night. 66.9 percent of Andover students feel as though they have an adequate mental and/or emotional support system on campus, with 61.9 percent marking family as a part of this support system while 88.5 percent noted friends and 81.1 percent chose themselves as an aspect of said system. Only 38.0 percent indicated faculty and staff as a part of their support system. Of respondents, 76.3 percent generally consider themselves happy at Andover, while only 52.7 percent of students think that Andover students are happy.",
   },
   {
-    slug: "community",
-    name: "Community Diversity",
+    slug: "diversity",
+    name: "Campus Diversity",
     colors: ["#279680", "#29AD97", "#78C4B1", "#AEDCCA", "#C8E7DD"],
     blurb:
       "While 66.1 percent of day students think day students are able to integrate enough with boarding students at Andover this year, while just 37.8 percent agreed. On the basis of socioeconomic equity, 16.9 percent of respondents that feel like their capability of attaining a leadership position is affected by their socioeconomic status are of lower and lower middle class. 67.3 percent ​​of respondents who are black feel as though Andover’s faculty is lacking racial diversity.",
@@ -129,9 +129,10 @@ sota.sotaNavbar(
   "#intro"
 );
 
-// GENERAL
+// ONLINE
 window.onload = () => {
-  // GENERAL
+  
+// -- GENERAL!! --- 
 
   sota.bigNumber({
     section: "general",
@@ -1165,121 +1166,131 @@ window.onload = () => {
   //     "Do you think that the school's disciplinary system favors students of privileged backgrounds?",
   // });
 
-  // Community Diversity
+  // --- CAMPUS DIVERSITY!! ---
 
   sota.barChart({
-    section: "community",
-    dataFile: "assets/data/community/faculty_diversity",
+    section: "diversity",
+    dataFile: "assets/data/diversity/138-faculty_diversity",
     totalResp: 949,
     displayPercentage: true,
     title: "Faculty Diversity",
     subtitle:
       "Do you think the faculty is lacking in diversity in _______________ ?",
+      // 2022!!
   });
 
   sota.stackedBarChart({
-    section: "community",
-    dataFile: "assets/data/community/faculty_diversityXgender",
+    section: "diversity",
+    dataFile: "assets/data/diversity/faculty_diversityXgender",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     showLegend: true,
     title: "Faculty Diversity By Gender",
     subtitle: "Do you think the faculty is lacking in diversity of gender?",
+    // 2022!!
   });
 
   sota.stackedBarChart({
-    section: "community",
-    dataFile: "assets/data/community/faculty_diversityXrace",
+    section: "diversity",
+    dataFile: "assets/data/diversity/faculty_diversityXrace",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     showLegend: true,
     title: "Faculty Diversity By Race",
     subtitle: "Do you think the faculty is lacking in diversity of race?",
+    // 2022!!
   });
 
-  sota.stackedBarChart({
-    section: "community",
-    dataFile: "assets/data/community/faculty_diversityXsocioeconomic",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    showLegend: true,
-    title: "Faculty Diversity By Percieved Socioeconomic Class",
-    subtitle:
-      "Do you think the faculty is lacking in diversity of socioeconomic status?",
-  });
+  // sota.stackedBarChart({
+  //   section: "diversity",
+  //   dataFile: "assets/data/diversity/faculty_diversityXsocioeconomic",
+  //   labelStyle: "onBar",
+  //   groupLabelStyle: "onBar",
+  //   showLegend: true,
+  //   title: "Faculty Diversity By Percieved Socioeconomic Class",
+  //   subtitle:
+  //     "Do you think the faculty is lacking in diversity of socioeconomic status?",
+  // });
 
   sota.barChart({
-    section: "community",
-    dataFile: "assets/data/community/social_divide",
+    section: "diversity",
+    dataFile: "assets/data/diversity/140-social_divide",
     totalResp: 875,
     displayPercentage: true,
     title: "Social Divide",
     subtitle:
       "Do you feel like there is a social divide at Andover between students of different _______________ ?",
+      // 2022!!
   });
 
   sota.stackedBarChart({
-    section: "community",
-    dataFile: "assets/data/community/social_divideXclass",
+    section: "diversity",
+    dataFile: "assets/data/diversity/social_divideXrace",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     showLegend: false,
-    title: "Social Divide by Class Year",
-    subtitle: "Do you feel like there is a social divide at Andover (any)?",
+    title: "Social Divide by Racial Group",
+    subtitle: "Whether or not students believe there is a social divide on campus compared to their racial group.",
+    // 2022!!
   });
 
   sota.barChart({
-    section: "community",
-    dataFile: "assets/data/community/discrimination",
+    section: "diversity",
+    dataFile: "assets/data/diversity/143-discrimination",
     totalResp: 864,
     displayPercentage: true,
     title: "Discrimination",
     subtitle:
       "Have you ever felt discriminated against at Andover due to your __________?",
+      // 2022!!
   });
 
   sota.barChart({
-    section: "community",
-    dataFile: "assets/data/community/faculty_support",
+    section: "diversity",
+    dataFile: "assets/data/diversity/139-faculty_support",
     totalResp: 848,
     displayPercentage: true,
     title: "Faculty Support",
     subtitle:
       "Which of the faculty/staff members in your life do you feel are supportive of a diverse range of students?",
+      // 2022!!
   });
 
   sota.barChart({
-    section: "community",
-    dataFile: "assets/data/community/identity_discussion",
+    section: "diversity",
+    dataFile: "assets/data/diversity/144-identity_discussion",
     totalResp: 870,
     displayPercentage: true,
     title: "Talking the Talk",
     subtitle:
       "Do you think that there are facets of identity that are not discussed enough at Andover?",
+      // 2022!!
   });
 
   sota.barChart({
-    section: "community",
-    dataFile: "assets/data/community/classroom_comfort",
+    section: "diversity",
+    dataFile: "assets/data/diversity/142-classroom_comfort",
     totalResp: 871,
     displayPercentage: true,
     title: "Classroom",
     subtitle:
       "While at Andover, have any of the following aspects of your identity significantly and consistently affected your level of comfort in a classroom setting?",
+      // 2022!!
   });
 
   sota.pieChart({
-    section: "community",
-    dataFile: "assets/data/community/ebi",
+    section: "diversity",
+    dataFile: "assets/data/diversity/145-ebi",
     sorted: false,
     title: "EBI Curriculumn",
     subtitle:
       "Do you think the EBI curriculum at Andover is effective in helping students become better community members?",
+      // 2022!!
   });
 
   sota.barChart({
-    section: "community",
-    dataFile: "assets/data/community/leadership",
+    section: "diversity",
+    dataFile: "assets/data/diversity/leadership",
     totalResp: 862,
     displayPercentage: true,
     title: "Leadership Positions",
@@ -1288,8 +1299,8 @@ window.onload = () => {
   });
 
   sota.stackedBarChart({
-    section: "community",
-    dataFile: "assets/data/community/day_student",
+    section: "diversity",
+    dataFile: "assets/data/diversity/day_student",
     title: "Day Students",
     subtitle:
       "Do you think day students are able to integrate enough with boarding students at Andover this year?",
