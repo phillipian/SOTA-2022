@@ -29,7 +29,7 @@ sota.sotaConfig.sections = [
       "#DFDBE7",
     ],
     blurb:
-      "Though 98 percent of respondents said that they ​​support “the advocacy of women's rights on the ground of the equality of the sexes?” However, 70.4 percent of people said they consider themselves feminists. 77.8 percent of students think that people should always have the right to have an abortion, while 97.7 percent of people supported abortion in at least some circumstances. In addition, 31.6 percent of students believe that white people can experience reverse racism.",
+      "98 percent of respondents said that they ​​support “the advocacy of women's rights on the ground of the equality of the sexes?” However, 70.4 percent of people said they consider themselves feminists. 77.8 percent of students think that people should always have the right to have an abortion, while 97.7 percent of people supported abortion in at least some circumstances. In addition, 31.6 percent of students believe that white people can experience reverse racism.",
   },
   {
     slug: "campus",
@@ -43,7 +43,7 @@ sota.sotaConfig.sections = [
     name: "School",
     colors: ["#812F54", "#AA7281", "#BF97A0", "#BF97A0", "#DCC5C3"],
     blurb:
-      "After a shift from online and hybrid schooling during the 2020-2021 school year to primarily in-person learning this year, Andover’s average G.P.A. for the 2021-2022 winter term was 5.35. Last year, the average G.P.A. was reported to be 5.50. This year, students reported spending 5.7 hours on average doing coursework each night. This was a 1.17 hour increase from last year’s average of 4.53. Of respondents, 14.6 percent of students believe that a “4” is a good grade.",
+      "After a shift from online and hybrid schooling during the 2020-2021 school year to primarily in-person learning this year, Andover’s average G.P.A. for the 2021-2022 Winter Term was 5.35. Last year, the average G.P.A. was reported to be 5.50. This year, students reported spending 5.7 hours on average doing coursework each night. This was a 1.17 hour increase from last year’s average of 4.53. Of respondents, 14.6 percent of students believe that a “4” is a good grade.",
   },
   {
     slug: "discipline",
@@ -872,7 +872,7 @@ window.onload = () => {
     dataFile: "assets/data/school/111-gpa",
     maxVal: 180,
     title: "G.P.A",
-    subtitle: "What was your rounded Winter 2021-2022 G.P.A.? (If you are between two numbers, round up to the closest decimal – a 5.3 G.P.A. would round to a 5.4. If you earned a Pass or multiple Passes, exclude this from your calculation.)",
+    subtitle: "What was your rounded Winter 2021-2022 G.P.A.? (If you are between two numbers, round up to the closest decimal – a 5.3 G.P.A. would round to a 5.4. If you earned a Pass or multiple Passes, exclude this from your calculation).",
     // 2022!!
   });
 
@@ -1125,7 +1125,7 @@ window.onload = () => {
   sota.bigNumber({
     section: "discipline",
     number: "36.5%",
-    title: "Room Visits—Have you ever had a room visit: \"visiting the dormitory room of or inviting an individual from outside your dormitory to your dorm room?\"",
+    title: "Room Visits—Have you ever had an illegal room visit: \"visiting the dormitory room of or inviting an individual from outside your dormitory to your dorm room?\"",
     subtitle:
       "of respondents had illegal visitations to their dorms.",
     // 2022!!
@@ -1771,9 +1771,9 @@ window.onload = () => {
     dataFile: "assets/data/drugs/studydrugsXgpa",
     displayPercentage: true,
     groupLabelStyle: "onBar",
-    title: "Study drug use vs. GPA",
+    title: "Study drug use vs. G.P.A.",
     subtitle:
-      'respondents who use study drugs compared to their GPA.',
+      'respondents who use study drugs compared to their G.P.A.',
       // 2022!!
   });
 
@@ -1834,7 +1834,7 @@ window.onload = () => {
     displayPercentage: true,
     title: "Have you ever been sanctuaried?",
     subtitle:
-      "Sanctuary: provided with a means of accessing support in situations where alcohol, drugs, tobacco, and/or nicotine are involved WITHOUT disciplinary consequences (The Blue Book)?",
+      "Sanctuary: provided with a means of accessing support in situations where alcohol, drugs, tobacco, and/or nicotine are involved WITHOUT disciplinary consequences (The Blue Book).",
       // 2022!!
   });
 
@@ -1983,8 +1983,8 @@ window.onload = () => {
     showLegend: true,
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
-    title: "Happiness by GPA",
-    subtitle: "Happiness of students and their GPA.",
+    title: "Happiness by G.P.A.",
+    subtitle: "Happiness of students and their G.P.A.",
     // 2022!!
   });
 
