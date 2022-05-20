@@ -1211,7 +1211,7 @@ window.onload = () => {
         // 2022!!
     });
 
-    sota.stackedBarChart({
+    sota.pieChart({
         section: "sex",
         dataFile: "assets/data/sex/90-sex_racial",
         showLegend: true,
