@@ -257,9 +257,9 @@ section:before{
 }
 
 .hero-blurb p{
-    max-width: 600px;
+    max-width: 700px;
     font-size: 20px;
-    margin: 12px 0;
+    margin: 10px 0;
     line-height: 1.5;
     font-family: "Mercury Text G1";
 }
