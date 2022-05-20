@@ -188,7 +188,7 @@ section:before{
 }
 
 .home-mid h3{
-    font-family: "Mercury Text G1";
+    font-family: "Lora", "Mercury Text G1";
     font-size: 24px;
     margin-bottom: 0;
 }
@@ -264,7 +264,7 @@ section:before{
     font-size: 20px;
     margin: 10px 0;
     line-height: 1.5;
-    font-family: "Mercury Text G1";
+    font-family: "Lora", "Mercury Text G1";
 }
 
 .hero-blurb p:first-of-type{
@@ -357,7 +357,7 @@ section:before{
 
 /* blurb styling*/
 .sota-section > h1 {
-    font-family: "Titan One"!important;
+    font-family: "Montserrat";
 }
   
 
