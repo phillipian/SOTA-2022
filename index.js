@@ -964,9 +964,10 @@ window.onload = () => {
 
     sota.barChart({
         section:"sex",
-        dataFile: "assets/data/sex/use_protection",
+        dataFile: "assets/data/sex/79-use_protection",
         displayPercentage: true,
-        title: "Do you use protection while engaging in sexual activity?"
+        title: "Do you use protection while engaging in sexual activity? Check all that apply."
+        // 2022!!
     });
 
 
@@ -981,27 +982,50 @@ window.onload = () => {
         subtitle: "What form(s) of sexual activity have you engaged in?"
     });
 
+    sota.groupedBarChart({
+        section: "senior",
+        dataFile: "assets/data/senior/sexfreqXgender",
+        showLegend: true,
+        labelStyle: "onBar",
+        groupLabelStyle: "onBar",
+        totalResp: {2018: 230, 2019: 361, 2020: 524, 2021: 519},
+        title: "Sexual Activity",
+        subtitle: "How frequently different "
+    });
+
     sota.stackedBarChart({
         section: "sex",
-        dataFile: "assets/data/sex/sex_frequency",
+        dataFile: "assets/data/sex/71-sex_frequency",
         showLegend: true,
         labelStyle: "onBar",
         title: "How frequently do you engage in sexual activity?"
+        // 2022!!
     });
+
+    sota.stackedBarChart({
+        section: "sex",
+        dataFile: "assets/data/sex/rapecultureXgenderid",
+        showLegend: true,
+        labelStyle: "onBar",
+        title: "Rape culture and gender identity"
+        // 2022!!
+    })
 
     sota.barChart({
         section:"sex",
-        dataFile: "assets/data/sex/number_of_partners",
+        dataFile: "assets/data/sex/72-number_of_partners",
         displayPercentage: true,
         title: "How many people have you engaged in sexual activity with?"
+        // 2022!!
     });
 
     sota.barChart({
         section:"sex",
-        dataFile: "assets/data/sex/sti",
+        dataFile: "assets/data/sex/92-sti",
         displayPercentage: true,
         title: "Sexual health",
         subtitle: "Have you ever contracted a Sexually Transmitted Infection (STI) or Sexually Transmitted Disease (STD)?"
+        // 2022!!
     });
 
     sota.lineGraph({
@@ -1010,61 +1034,69 @@ window.onload = () => {
         title: "Sexual Education",
         subtitle: "Do you think that your sexual education at Andover has been/is adequate?",
         inputIsPercentage: true
+        // 2022!!
     })
 
     sota.pieChart({
         section:"sex",
-        dataFile: "assets/data/sex/hookup_culture",
+        dataFile: "assets/data/sex/73-hookup_culture",
         displayPercentage: true,
         title: "hook-up culture",
         subtitle: "Do you believe that there is a hook-up culture at Andover?"
+        // 2022!!
     });
 
     sota.bigNumber({
         section:"sex",
-        number: "29.3%",
+        number: "23.6%",
         title: "Peer pressure & hook-up culture",
         subtitle: "of respondents that believe Andover has a hook-up culture have felt pressured by peers to participate in it."
+        // 2022!!
     })
-    // sota.pieChart({
-    //     section:"sex",
-    //     dataFile: "assets/data/sex/participate_hookup",
-    //     displayPercentage: true,
-    //     title: "NEED TO REMOVE OR NOT?? If yes, have you ever felt pressured by your peers to participate in Andover's hook-up culture?"
-    // });
-
     sota.pieChart({
         section:"sex",
-        dataFile: "assets/data/sex/ever_hookedup",
+        dataFile: "assets/data/sex/74-participate_hookup",
         displayPercentage: true,
-        title: " \"Hooking-up\"",
-        subtitle: "Have you ever “hooked up” with someone you were not in a committed relationship with?"
+        title: "Have you ever felt pressured by your peers to participate in Andover's hook-up culture?"
+        // 2022!!
     });
 
     sota.pieChart({
         section:"sex",
-        dataFile: "assets/data/sex/partner_pressure",
+        dataFile: "assets/data/sex/75-ever_hookedup",
+        displayPercentage: true,
+        title: " \"Hooking-up\"",
+        subtitle: "Have you ever “hooked up” with someone you were not in a committed relationship with?"
+        // 2022!!
+    });
+
+    sota.pieChart({
+        section:"sex",
+        dataFile: "assets/data/sex/76-partner_pressure",
         displayPercentage: true,
         title: "partner pressure",
         subtitle: "Have you ever felt pressured by a partner to engage in sexual activity?"
+        // 2022!!
     });
 
     sota.stackedBarChart({
         section:"sex",
-        dataFile: "assets/data/sex/rape_culture",
+        dataFile: "assets/data/sex/77-rape_culture",
         displayPercentage: true,
         groupLabelStyle: "onBar",
         title: "Do you believe that there is rape culture at Andover?",
         subtitle: "Rape culture: \“a society or environment whose prevailing social attitudes have the effect of normalizing or trivializing sexual assault and abuse\” (Oxford Dictionaries)"
+        // 2022!!
     });
 
     sota.stackedBarChart({
         section: "sex",
-        dataFile: "assets/data/sex/verbalconsent",
+        dataFile: "assets/data/sex/78-verbalconsent",
         showLegend: true,
         labelStyle: "onBar",
         title:"consent",
         subtitle: "Do you consistently ask your partner for verbal consent?"
+        // 2022!!
     });
 
     sota.stackedBarChart({
