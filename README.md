@@ -8,4 +8,4 @@ To determine correlations, The Phillipian analyzed the CSV file of all responses
 
 This year, the survey included content warnings that allowed participants to skip specific questions that may have been potentially triggering without viewing the question itself. We sincerely thank members of the student body for their willingness to share information and personal experiences for this special issue of The Phillipian, and we hope that the State of the Academy will serve to inform, enlighten, and create a more holistic narrative of the students at Andover.
 
-Website by Claire Wang with contributions from Dakota Chang and Davin Jeong.
+Website by Claire Wang with contributions from Dakota Chang (data analysis) and Davin Jeong.
