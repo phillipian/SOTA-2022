@@ -2,6 +2,9 @@ html {
   /* zoom: 90%; */
 }
 
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
 body{
     overflow-x: hidden;
 }
@@ -353,9 +356,14 @@ section:before{
 }
 
 /* blurb styling*/
+.sota-section > h1 {
+    font-family: "Titan One"!important;
+}
+  
+
 .sota-section > p {
   color: #fff;
-  font-family: Lora;
+  font-family: "Lora";
   line-height: 1.5;
   max-width: 1000px !important;
   margin: 64px auto;
