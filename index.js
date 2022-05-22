@@ -429,7 +429,7 @@ window.onload = () => {
     dataFile: "assets/data/politics/25-shifting_perspectives",
     title: "Shifting Perspectives",
     subtitle:
-      "Have your political beliefs changed after the increase in media coverage of societal and systemic injustices this past year?",
+      "Have your political beliefs  d after the increase in media coverage of societal and systemic injustices this past year?",
     // 2022!!
   });
 
