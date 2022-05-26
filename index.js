@@ -2191,6 +2191,16 @@ window.onload = () => {
     subtitle:"What region are you from?"
   })
 
+  sota.multiLineGraph({
+    section: "senior",
+    dataFile: "assets/data/senior/gender",
+    showLegend: true,
+    inputIsPercentage: false,
+    displayPercentage: true,
+    title: "Gender Identity",
+    subtitle:"What is your gender identity?"
+  })
+
   // sota.stackedBarChart({
   //   section: "senior",
   //   dataFile: "assets/data/senior/happiness",
