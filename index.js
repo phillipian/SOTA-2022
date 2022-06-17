@@ -319,13 +319,14 @@ window.onload = () => {
     // 2022!!
   });
 
-  sota.pieChart({
+  sota.stackedBarChart({
     section: "general",
     dataFile: "assets/data/general/38-incarcerated",
     totalResp: 930,
     sorted: false,
     title: "INCARCERATION",
     subtitle: "Do you personally know someone who has been incarcerated?",
+    // shapeFile: "assets/svgs/handcuff"
     // 2022!!
   });
 
@@ -617,6 +618,7 @@ window.onload = () => {
     number: "72.0%",
     subtitle:
       "of respondents who know someone who has been incarcerated believe drug use should be decriminalized.",
+    // shapeFile:"assets/svgs/pill-politics"
     // 2022!!
   });
 
@@ -639,11 +641,12 @@ window.onload = () => {
     // 2022!!
   });
 
-  sota.barChart({
+  sota.customBarChart({
     section: "politics",
     dataFile: "assets/data/politics/42-firearms",
     title: "Firearm Ownership",
     subtitle: "Does your family own firearms?",
+    shapeFile: "assets/svgs/gun"
     // 2022!!
   });
 
@@ -1949,13 +1952,14 @@ window.onload = () => {
     // 2022!!
   });
 
-  sota.pieChart({
+  sota.customColumnChart({
     section: "wellness",
     dataFile: "assets/data/wellness/53-insecure_academic",
-    sorted: false,
     title: "academic insecurity",
     subtitle:
       "Do you feel insecure about your academic ability and/or intelligence?",
+    shapeFile: "assets/svgs/lightbulb",
+    shapeHeight: 250,
     // 2022!!
   });
 
@@ -2090,13 +2094,13 @@ window.onload = () => {
     // 2022!!
   });
 
-  sota.pieChart({
+  sota.customBarChart({
     section: "wellness",
     dataFile: "assets/data/wellness/60-sykes_physical",
-    sorted: false,
     subtitle:
       "Do you think that the physical health resources provided by the Sykes Wellness Center are sufficient?",
     title: "physical health resources",
+    shapeFile: "assets/svgs/pregnancy",
     // 2022!!
   });
 
